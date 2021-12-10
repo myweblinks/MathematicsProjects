@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 12;
+}
+
+body {
+    background-color: #111;
+}
+
+#Sec1 {
+    width: 100%;
+    height: auto;
+    background-color: #222;
+}
+
+#HeadName {
+    color: white;
+    font: caption;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 3rem;
+}
+
+#Triangle_Sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+    padding: 1rem;
+}
+
+#Entr_Txt {
+    color: white;
+    font-family: cursive;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+#Input_Boxes_Parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Boxes {
+    color: white;
+    font-family: cursive;
+}
+
+#Check_Val {
+    background-color: #222;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 1.5rem;
+    width: 3rem;
+    font: caption;
+    background-color: #888;
+    font-family: cursive;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#Result_Sec {
+    width: 14rem;
+    border-radius: 10px;
+    height: 8rem;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    flex-direction: column;
+}
+
+#Result_Txt {
+    color: white;
+    font: caption;
+    font-family: cursive;
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#Main_Result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Result_Texts {
+    color: white;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+    font-family: cursive;
+}
+
+.Tri_Points_In {
+    width: 4rem;
+    margin-right: 0.5rem;
+    background-color: #444;
+    border: none;
+    outline: none;
+    height: 1.1rem;
+    color: white;
+    padding: 0.2rem;
+}
+
+#Caution {
+    color: rgb(255, 110, 110);
+    font-family: monospace;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Right_Tri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    background-color: #111;
+    margin-left: auto;
+    margin-right: 0.5rem;
+    border-radius: 8px;
+}
+
+.Tri_Lines {
+    background-color: white;
+    width: 5rem;
+    height: 0.15rem;
+    position: absolute;
+}
+
+#Tri_Line1 {
+    background-color: white;
+    height: 0.15rem;
+    left: 1.55rem;
+    top: 4.5rem;
+    width: 7rem;
+    transform: rotate(-45deg);
+}
+
+#Tri_Line2 {
+    background-color: white;
+    height: 0.15rem;
+    transform: rotate(90deg);
+    top: 4.55rem;
+    left: 5rem;
+}
+
+#Tri_Line3 {
+    background-color: white;
+    height: 0.15rem;
+    top: 7rem;
+}
+
+.Points {
+    color: white;
+    position: absolute;
+}
+
+#Point1 {
+    left: 1.7rem;
+    bottom: 2rem;
+}
+
+#Point2 {
+    right: 1.6rem;
+    top: 1.3rem;
+}
+
+#Point3 {
+    right: 1.6rem;
+    bottom: 2rem;
+}
